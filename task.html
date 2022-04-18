@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+
+  <div id="myDIV" class="header">
+    <h2> Task Management</h2>
+    <input type="text" id="inputText" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+
+  <ul id="myUL">
+    <li class="checked">Hit the gym</li>
+    <li> Go through data Flair JavaScript Tutorials</li>
+    <li> Practice the Codes</li>
+    <li> Read a book on JavaScript</li>
+    <li> Organize my Notes</li>
+    <li> Create JavaScript Projects </li>
+    <li> Take Quiz </li>
+    <li> Comprehend Interview Questions </li>
+  </ul>
+
+  <button onclick="remove()" class="button">Remove All</button>
+  <script src="task.js"></script>
+</body>
+
+</html>
